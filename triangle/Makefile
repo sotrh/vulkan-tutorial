@@ -6,8 +6,8 @@ demo: main.cpp
 
 .PHONY: test clean
 
-test: demo
-	./demo
+debug: demo
+	./build/demo
 
 clean:
-	rm -f demo
+	rm -f build/demo
